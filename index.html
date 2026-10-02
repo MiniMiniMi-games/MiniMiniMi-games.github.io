@@ -2,10 +2,119 @@
 <html lang="ko">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>MiniMiniMi</title>
+
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      color: #222;
+      background: #fff;
+    }
+
+    header {
+      text-align: center;
+      padding: 90px 20px 70px;
+    }
+
+    .logo {
+      width: min(620px, 85%);
+      height: auto;
+    }
+
+    .slogan {
+      margin-top: 20px;
+      font-size: 24px;
+      font-weight: 600;
+    }
+
+    main {
+      max-width: 1000px;
+      margin: 0 auto;
+      padding: 0 30px 100px;
+    }
+
+    h2 {
+      font-size: 28px;
+      margin-bottom: 25px;
+    }
+
+    .game-card {
+      border: 1px solid #e5e5e5;
+      border-radius: 18px;
+      padding: 32px;
+      min-height: 180px;
+    }
+
+    .game-card h3 {
+      margin: 0 0 12px;
+      font-size: 24px;
+    }
+
+    .game-card p {
+      margin: 0;
+      color: #666;
+      line-height: 1.7;
+    }
+
+    footer {
+      border-top: 1px solid #eee;
+      padding: 30px 20px;
+      text-align: center;
+      color: #777;
+      font-size: 14px;
+    }
+
+    footer a {
+      color: #555;
+      text-decoration: none;
+      margin: 0 10px;
+    }
+
+    @media (max-width: 600px) {
+      header {
+        padding-top: 65px;
+      }
+
+      .slogan {
+        font-size: 20px;
+      }
+
+      main {
+        padding-left: 20px;
+        padding-right: 20px;
+      }
+    }
+  </style>
 </head>
+
 <body>
-  <h1>MiniMiniMi</h1>
-  <p>We make small games with big fun.</p>
+
+  <header>
+    <img class="logo" src="miniminimi-logo.png" alt="MiniMiniMi">
+    <div class="slogan">Fun comes first.</div>
+  </header>
+
+  <main>
+    <h2>Games</h2>
+
+    <div class="game-card">
+      <h3>지각하면 짤림</h3>
+      <p>Coming Soon</p>
+    </div>
+  </main>
+
+  <footer>
+    <a href="#">Privacy Policy</a>
+    <a href="#">Support</a>
+    <a href="#">Patch Notes</a>
+    <p>© 2026 MiniMiniMi</p>
+  </footer>
+
 </body>
 </html>
